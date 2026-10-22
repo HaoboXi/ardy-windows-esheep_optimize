@@ -1,0 +1,15 @@
+{
+  "schema": "ardy.runtime.v1",
+  "version": "0.6.0",
+  "install_root": "<INSTALL_ROOT>",
+  "backend_root": "<INSTALL_ROOT>/backend",
+  "python": "<INSTALL_ROOT>/envs/ardy-runtime/python.exe",
+  "models": {
+    "nf4": "<INSTALL_ROOT>/models/Esheep-ardy-llm2vec_NF4",
+    "core": "<INSTALL_ROOT>/checkpoints/ARDY-Core-RP-20FPS-Horizon40"
+  },
+  "translation": {
+    "python": "<INSTALL_ROOT>/translation_cpu_v051/Scripts/python.exe",
+    "model": "<INSTALL_ROOT>/translation_models/translate-zh_en-1_9"
+  }
+}

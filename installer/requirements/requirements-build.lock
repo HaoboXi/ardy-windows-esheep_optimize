@@ -1,0 +1,5 @@
+# Publisher only; not installed by the end-user installer.
+setuptools==78.1.0
+wheel==0.48.0
+cmake==4.3.4
+pybind11==2.11.1

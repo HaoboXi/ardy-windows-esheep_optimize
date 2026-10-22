@@ -1,0 +1,56 @@
+[
+  {
+    "name": "ctranslate2",
+    "version": "4.7.1",
+    "filename": "ctranslate2-4.7.1-cp311-cp311-win_amd64.whl",
+    "url": "https://files.pythonhosted.org/packages/d2/23/8c01ac52e1f26fc4dbe985a35222ae7cd365bbf7ee5db5fd5545d8926f91/ctranslate2-4.7.1-cp311-cp311-win_amd64.whl",
+    "bytes": 18843315,
+    "sha256": "67d9ad9b69933fbfeee7dcec899b2cd9341d5dca4fdfb53e8ba8c109dc332ee1",
+    "kind": "wheel"
+  },
+  {
+    "name": "sentencepiece",
+    "version": "0.2.1",
+    "filename": "sentencepiece-0.2.1-cp311-cp311-win_amd64.whl",
+    "url": "https://files.pythonhosted.org/packages/32/b8/f709977f5fda195ae1ea24f24e7c581163b6f142b1005bc3d0bbfe4d7082/sentencepiece-0.2.1-cp311-cp311-win_amd64.whl",
+    "bytes": 1054617,
+    "sha256": "82d9ead6591015f009cb1be1cb1c015d5e6f04046dbb8c9588b931e869a29728",
+    "kind": "wheel"
+  },
+  {
+    "name": "numpy",
+    "version": "2.4.6",
+    "filename": "numpy-2.4.6-cp311-cp311-win_amd64.whl",
+    "url": "https://files.pythonhosted.org/packages/c5/31/7fc6239c12bce7e931463251cca4426c465e1876ba3cc785402ef4dd8f4e/numpy-2.4.6-cp311-cp311-win_amd64.whl",
+    "bytes": 12608406,
+    "sha256": "1e254a00cdf42b1e4d5b3d68d33af63268d41340d8885df2ab6470f2e1500147",
+    "kind": "wheel"
+  },
+  {
+    "name": "PyYAML",
+    "version": "6.0.3",
+    "filename": "pyyaml-6.0.3-cp311-cp311-win_amd64.whl",
+    "url": "https://files.pythonhosted.org/packages/da/e3/ea007450a105ae919a72393cb06f122f288ef60bba2dc64b26e2646fa315/pyyaml-6.0.3-cp311-cp311-win_amd64.whl",
+    "bytes": 158763,
+    "sha256": "9f3bfb4965eb874431221a3ff3fdcddc7e74e3b07799e0e84ca4a0f867d449bf",
+    "kind": "wheel"
+  },
+  {
+    "name": "psutil",
+    "version": "7.2.2",
+    "filename": "psutil-7.2.2-cp37-abi3-win_amd64.whl",
+    "url": "https://files.pythonhosted.org/packages/b4/90/e2159492b5426be0c1fef7acba807a03511f97c5f86b3caeda6ad92351a7/psutil-7.2.2-cp37-abi3-win_amd64.whl",
+    "bytes": 137737,
+    "sha256": "eb7e81434c8d223ec4a219b5fc1c47d0417b12be7ea866e24fb5ad6e84b3d988",
+    "kind": "wheel"
+  },
+  {
+    "name": "setuptools",
+    "version": "79.0.1",
+    "filename": "setuptools-79.0.1-py3-none-any.whl",
+    "url": "https://files.pythonhosted.org/packages/0d/6d/b4752b044bf94cb802d88a888dc7d288baaf77d7910b7dedda74b5ceea0c/setuptools-79.0.1-py3-none-any.whl",
+    "bytes": 1256281,
+    "sha256": "e147c0549f27767ba362f9da434eab9c5dc0045d5304feb602a0af001089fc51",
+    "kind": "wheel"
+  }
+]

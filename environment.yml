@@ -1,0 +1,8 @@
+name: ardy-runtime
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11.17
+  - pip
+# CUDA PyTorch is a pip wheel, installed separately from the official cu128 index.
+# Run installer/install_backend.py; never install the original project [all] extras.

@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools==78.1.0", "wheel==0.48.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ardy-windows-esheep-optimize"
+version = "0.6.0"
+description = "Community Windows/NF4 deployment of ARDY Core27 for Motion Bridge"
+readme = "README.md"
+requires-python = ">=3.11,<3.12"
+license = {text = "Apache-2.0"}
+# Runtime installation is performed by installer/requirements/*.lock and the
+# verified Windows wheel manifest, never by an unbounded [all] extra.
+
+[project.urls]
+Source = "https://github.com/HaoboXi/ardy-windows-esheep_optimize"
+Upstream = "https://github.com/nv-tlabs/ardy"
+
+[tool.setuptools.packages.find]
+include = ["ardy*", "backend*", "protocol*", "installer*"]
+
+[tool.setuptools.package-data]
+ardy = ["assets/**/*"]
+protocol = ["*.json"]
