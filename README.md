@@ -69,20 +69,5 @@ CPU offload, MODEL_INIT_LOCK and strict `allow_pickle=False` Core NPZ protocol.
 No user text is sent to a translation provider. Argos zh_en 1.9 runs in a separate
 CPU environment with hash-pinned resources and editable/cached English results.
 
-## Source, attribution and publishing
-
-Source lineage: NVIDIA `nv-tlabs/ardy` and the deployed Windows/NF4 community
-adaptation from `zwukong/ardy-keyframeMotionGeneration`. This copy preserves the
-working deployed source instead of replacing it with a new upstream clone.
-See `ATTRIBUTIONS.md`, `LICENSE`, `licenses/` and `PUBLISHING.md`.
-
-Model licenses are distinct from the Apache-2.0 code license. The Core checkpoint
-uses NVIDIA's Open Model License. The publisher deferred the NF4 model-card/license
-supplement; this source package does not redistribute those weights or claim they
-are Apache-2.0. Complete that metadata separately before promoting public use.
-
-The maintainer publishes GitHub commits, the `v0.6.0-backend` tag and release assets
-manually. The plugin downloads an exact release asset with a pinned SHA256, not
-whatever code happens to be on `main`.
 
 See [中文说明](README.zh-CN.md).
