@@ -67,10 +67,3 @@ AppData 中，不属于可提交源码。错误日志保留，失败/取消不�
 内置 Python 作为引导，不依赖已有 ARDY 环境。依赖清单区分 Conda Python、CUDA
 PyTorch wheel、正式运行锁定包和仅发布构建机需要的构建依赖，未启用原项目 `[all]`。
 
-请阅读 [PUBLISHING.md](PUBLISHING.md)。本次交付由维护者手动提交代码、创建 Tag
-并上传 Release 文件；尚未上传时，面向新用户的 GitHub 下载入口会明确失败，
-不能据此宣称公开网络安装已完成。
-
-原 ARDY Apache-2.0 与第三方版权完整保留。权重许可不等同于源码许可；Core
-采用 NVIDIA Open Model License。NF4 仓库模型卡/许可证补充按维护者要求暂缓，
-在发布清单标注待补充，本源码不分发模型权重。见 [ATTRIBUTIONS.md](ATTRIBUTIONS.md)。
