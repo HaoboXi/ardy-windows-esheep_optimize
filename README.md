@@ -1,8 +1,7 @@
 # ARDY Windows / NF4 Motion Bridge backend 0.6.0
 
 Windows deployment of the existing ARDY Core27 inference stack for ARDY Motion
-Bridge and Blender PMX/MMD characters. This is a community Windows/NF4 integration,
-**not an NVIDIA-maintained release**. Original ARDY and LLM2Vec notices are retained.
+Bridge and Blender PMX/MMD characters. I personally tweaked it for optimal performance on Windows/NF4. The original project didn't support running on Windows, and **it's not an officially maintained and distributed version by NVIDIA**. Original ARDY and LLM2Vec notices are retained.
 
 The release includes actual Core model code, the proven NF4/offload adapters,
 Core27 static skeleton data, native MotionCorrection source and a CPython 3.11

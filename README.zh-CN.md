@@ -1,7 +1,7 @@
 # ARDY Windows / NF4 后端 v0.6.0
 
 这是 ARDY Motion Bridge 的 Windows 部署后端，面向 Blender PMX/MMD。
-它是社区 Windows/NF4 优化版本，**不是 NVIDIA 官方维护发行版**。
+它是我亲自适配 Windows/NF4 优化版本，原始的项目并不支持在win上运行，**不是 NVIDIA 官方维护发行版**。
 真实 ARDY/Core27 源码、NF4/offload 适配、原生 MotionCorrection、HTTP/Worker
 和中文离线 CPU 翻译均包含在源码中，未用空 README 替代运行模块。
 
@@ -29,6 +29,8 @@ Advanced Installation Settings → Detect Existing → Import Existing。
 也可显式选择原后端目录与 Conda Python。安装器复制精简运行源码到新安装目录，
 读取并校验已有权重，引用已有环境与翻译资源；不重新下载几 GB 模型，
 不改原目录、不升级借用环境、不移动用户资产。
+
+模型下载：[Esheep-ardy-llm2vec_NF4（HF 镜像）](https://hf-mirror.com/Esheepbo/Esheep-ardy-llm2vec_NF4/tree/main)。
 
 新安装模型默认目录：
 
